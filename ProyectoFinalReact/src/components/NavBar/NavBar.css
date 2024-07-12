@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+   color: #007bff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar .container {
+    max-width: 100%;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #007bff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #bd0f0f;
+    padding: 8px 16px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }

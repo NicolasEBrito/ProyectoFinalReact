@@ -1,0 +1,14 @@
+.ordenes{
+    margin-top: 40px;
+    display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(58, 58, 61);
+  border-radius: 3px;
+  border: 2px solid black;
+}
+.titulo{
+    font-size: 30px;
+}
