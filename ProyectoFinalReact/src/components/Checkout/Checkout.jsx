@@ -14,7 +14,7 @@ const Checkout = ({completeOrder}) => {
             tel: telBuyer,
             email: emailBuyer
         }
-        await CompleteOrder(buyer)
+        await completeOrder(buyer)
     }
 
   return (

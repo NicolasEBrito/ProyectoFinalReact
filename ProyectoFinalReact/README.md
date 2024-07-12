@@ -1,8 +1,31 @@
-# React + Vite
+# Mahoraga Store - Proyecto Curso React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Funciones Principales
+- Compra de Merch, Mangas y Figuras
+- Control de stock
+- Creación de Ordenes
+### Home
+Permite ver los productos disponibles e ingresar al detalle de cada uno
+<img src="./screenshots/home.png">
 
-Currently, two official plugins are available:
+### Detalle del producto
+Permite ver imágen, descripción y precio de los productos, además de ofrecer la oportunidad de agregarlos al carrito
+<img src="./screenshots/detalle.png">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Cart
+Permite ver los items en el carrito y comenzar la orden
+<img src="./screenshots/cart.png">
+
+### Checkout
+Obtiene datos del comprador, genera la orden y presenta el id de la orden  al comprador
+<img src="./screenshots/checkout.png">
+
+### Órdenes
+Permite ver los id de las órdenes hechas por el comprador
+<img src="./screenshots/orders.png">
+
+## Tecnologías Utilizadas
+- React router dom para la navegación
+- imgbb para hostear las imágenes de los productos
+- Google Firebase para simular el back end
+- Font Awesome para el Loader

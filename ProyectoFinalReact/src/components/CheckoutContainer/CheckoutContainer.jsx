@@ -31,7 +31,7 @@ const CheckoutContainer = () => {
         navigate("/orders")
     }
   return (
-    <Checkout/>
+    <Checkout completeOrder={completeOrder}/>
   )
 }
 

@@ -2,20 +2,13 @@
     width: 270px;
     border: 1px solid;
     border-radius: 8px;
-    padding: 10px;
-    margin:10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.card img{
-    width: 200;
-    height: 150px;
-    object-fit: cover;
+    padding: 8px;
+    margin: 8px;
+    gap:8px;
 }
 .card button{
     background-color: blue;
-    color:black;
+    color:rgb(2, 3, 12);
     border: none;
     padding: 5px 10px;
     border-radius: 5px;

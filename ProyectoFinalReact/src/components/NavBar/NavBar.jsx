@@ -28,11 +28,11 @@ const NavBar = () => {
   }
 
   return (
-  <nav className="navbarNav">
-    <div>
-      <Link to="/">Productos</Link>
-      <Link to="/cart">Carrito</Link>
-      <Link to="/orders">Órdenes</Link>
+  <nav className="navbar">
+    <div className='links'>
+      <Link className="link"to="/">Productos</Link>
+      <Link className="link"to="/cart">Carrito</Link>
+      <Link className="link"to="/orders">Órdenes</Link>
      </div>
      {(location.pathname == "/" || location.pathname.includes("/category"))&&
      <CustomSelect 

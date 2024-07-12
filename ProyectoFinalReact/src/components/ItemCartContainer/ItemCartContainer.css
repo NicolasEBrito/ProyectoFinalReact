@@ -1,6 +1,13 @@
 .cartContainer{
+    width: 60%; 
+}
+.checkout{
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color: aquamarine;
     display: flex;
-    margin: 50px;
-
-    align-items:center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 5px;
 }
